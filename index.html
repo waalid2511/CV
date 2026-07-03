@@ -10,9 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=13">
 </head>
 <body>
+    <!-- 3D Animated Background Scene -->
+    <div class="scene-3d">
+        <!-- Floating Code Snippets -->
+        <div class="floating-code code-1">const developer = true;</div>
+        <div class="floating-code code-2">while(alive) { code(); }</div>
+        <div class="floating-code code-3">git commit -m "build future"</div>
+        <div class="floating-code code-4">Array.from(dreams).map(build)</div>
+        
+    </div>
+
     <!-- Ambient Background Glows -->
     <div class="ambient-glow glow-1"></div>
     <div class="ambient-glow glow-2"></div>
@@ -37,7 +47,7 @@
             </div>
             
             <div class="hero-visual">
-                <div class="profile-wrapper">
+                <div class="profile-wrapper tilt-element">
                     <!-- Profile image path set to profile.jpg (no grayscale filter!) -->
                     <img src="assets/portrait_man.png" alt="Abdul Walid Thohir" class="profile-img">
                     <div class="profile-ring"></div>
@@ -51,7 +61,7 @@
             <div class="skills-grid">
 
                 <!-- Frontend -->
-                <div class="skill-card">
+                <div class="skill-card tilt-element">
                     <div class="skill-card-header">
                         <div class="skill-icon">🌐</div>
                         <h3>Frontend Development</h3>
@@ -67,7 +77,7 @@
                 </div>
 
                 <!-- Backend -->
-                <div class="skill-card">
+                <div class="skill-card tilt-element">
                     <div class="skill-card-header">
                         <div class="skill-icon">⚙️</div>
                         <h3>Backend Development</h3>
@@ -81,7 +91,7 @@
                 </div>
 
                 <!-- Mobile -->
-                <div class="skill-card">
+                <div class="skill-card tilt-element">
                     <div class="skill-card-header">
                         <div class="skill-icon">📱</div>
                         <h3>Mobile Development</h3>
@@ -95,7 +105,7 @@
                 </div>
 
                 <!-- Tools -->
-                <div class="skill-card">
+                <div class="skill-card tilt-element">
                     <div class="skill-card-header">
                         <div class="skill-icon">🛠️</div>
                         <h3>Tools & Technologies</h3>
@@ -118,24 +128,30 @@
             <div class="projects-grid">
                 
                 <!-- Project Card 1 -->
-                <div class="project-card">
+                <div class="project-card tilt-element">
                     <div class="card-image-box">
-                        <img src="assets/workspace_desk.png" alt="Project 1">
+                        <img src="assets/workspace_desk.png" alt="Open Trip Website">
                     </div>
                     <div class="card-info">
-                        <h3>Stellar Dashboard</h3>
-                        <p>Web Application</p>
+                        <h3>Open Trip Website</h3>
+                        <p>Website Open Trip modern yang dirancang untuk menampilkan paket wisata, jadwal perjalanan, galeri, dan informasi destinasi dengan tampilan responsif serta fitur booking melalui WhatsApp.</p>
+                        <div class="project-links">
+                            <a href="https://waalid2511.github.io/open-trip" target="_blank" class="btn-demo">Live Demo ↗</a>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Project Card 2 -->
-                <div class="project-card">
+                <div class="project-card tilt-element">
                     <div class="card-image-box">
-                        <img src="assets/hasil2.png" alt="Project 2  ">
+                        <img src="assets/hasil2.png" alt="Project 2">
                     </div>
                     <div class="card-info">
-                        <h3>Gridly UI Kit</h3>
-                        <p>Design System</p>
+                        <h3>Nama Project 2</h3>
+                        <p>Deskripsi singkat tentang project ini.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn-demo">Live Demo ↗</a>
+                        </div>
                     </div>
                 </div>
 
@@ -147,6 +163,6 @@
         <p>© 2026 Abdul Walid Thohir. All rights reserved.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
 </body>
 </html>
